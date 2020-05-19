@@ -1,2 +1,6 @@
 # delivery
-Python Marathon Delivery Project
+### Python Marathon Delivery Project Homework
+
+## Scripts
+- bin/compile
+- bin/deploy
