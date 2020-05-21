@@ -3,6 +3,6 @@ cd delivery
 python -m venv venv
 source ./venv/Scripts/activate
 pip install -r requirements.txt
-django-admin startproject prj
-./prj/manage.py migrate
-./prj/manage.py runserver 8989
+django-admin startproject backend 
+./backend/manage.py migrate
+./backend/manage.py runserver 8989
