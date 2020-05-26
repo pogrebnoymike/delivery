@@ -1,0 +1,8 @@
+#!/bin/bash
+cd delivery
+python -m venv venv
+source ./venv/Scripts/activate
+pip install -r requirements.txt
+django-admin startproject backend 
+./backend/manage.py migrate
+./backend/manage.py runserver 8989
