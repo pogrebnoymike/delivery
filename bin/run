@@ -1,0 +1,4 @@
+#!/bin/bash
+source ../venv/Scripts/activate
+../backend/manage.py runserver 8989
+
